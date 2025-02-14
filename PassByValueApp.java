@@ -15,8 +15,8 @@ class Apple {
     //The method argument is a reference type (class)
     public static void changeAppleColor(Apple apple){
       System.out.println("apple: "+apple);//display memory address
-      apple.color = "green";
       apple = new Apple("blue");
       System.out.println("apple: "+apple);//display memory address
+      apple.color = "green";
     }
  }
